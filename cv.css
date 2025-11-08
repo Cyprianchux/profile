@@ -45,12 +45,22 @@ body {
 }
 .contact p, .profile p, .skills li {
   margin: 8px 0;
-  font-size: 14px;
+  font-size: 16px;
   text-align: justify;
 }
 .contact i, .skills i, .profile i {
   margin-right: 8px;
   color: #bf7f00;
+}
+.contact span {
+  color: #bf7f00;
+}
+.contact a {
+  color: white;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: rgb(228, 182, 122);
 }
 .profile p {
   text-align: justify;
@@ -61,7 +71,7 @@ body {
   padding-left: 0;
 }
 .skills li {
-  font-size: 13px;
+  font-size: 15px;
   margin: 6px 0;
 }
 .main {
@@ -74,8 +84,8 @@ h2 {
   margin-top: 30px;
 }
 .section p, .section li, .section a {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 1.4;
   text-decoration: none;
 }
 .job {
@@ -83,13 +93,13 @@ h2 {
 }
 .job strong {
   display: block;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 4px;
   color: #003f5c;
 }
 .job span {
-  font-size: 13px;
-  color: #777;
+  font-size: 16px;
+  color: #bf7f00;
 }
 .ref-section {
   display: inline-block;
@@ -101,9 +111,6 @@ h2 {
 ul {
   margin: 5px 0 15px 20px;
   list-style: none;
-}
-.certifications {
-  color: #003f5c;
 }
 
 /* Responsive */
@@ -132,5 +139,13 @@ ul {
   }
   .main {
     padding: 20px;
+  }
+}
+
+@media (max-width: 648px) {
+  .contact {
+    display: block;
+    margin-left: 0px;
+    margin-top: 10px;
   }
 }
